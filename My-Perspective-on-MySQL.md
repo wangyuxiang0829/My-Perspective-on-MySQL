@@ -105,30 +105,41 @@ is both ok
 
 
 
-> The fundamental concept behind relational databases is that they break up data sets into individual pieces or subsets of data. Each subset of the data will have a theme that logically binds the data records and that subset together
+#### How Does Relational Databases works
 
-When you ask to retrieve information, the database only interacts with the subsets of data it needs to provide the information you asked for rather than interacting with the entire dataset at the same time
-
-
-
-A critical piece of database design is making sure each individual table with its own unified theme contains a column with unique values that allows you to link that table to other tables
+* The fundamental concept behind relational databases is that they break up data sets into individual pieces or subsets of data. Each subset of the data will have a theme that logically binds the data records and that subset together
+* When you ask to retrieve information, the database only interacts with the subsets of data it needs to provide the information you asked for rather than interacting with the entire dataset at the same time
 
 
 
-Computers don't yet run on magic although admittedly it often seems like they do. So in order to have a computer program do something like link up tables for you, you have to have a way of telling the computer how to do that. You have to be able to program in the appropriate rules and operations that will lead to the outcomes you want. It turns out that thinking of data as groups of related items that can interact allows programmers to take advantage of the mathematical theory called set theory and a kind of algebra called relational algebra to write an elegant and complete programming language for each reading information
+#### What Does Programmers Do
+
+> Computers don't yet run on magic although admittedly it often seems like they do
 
 
+
+So in order to have a computer program do something like link up tables for you, you have to have a way of telling the computer how to do that.
+
+You have to be able to program in the appropriate rules and operations that will lead to the outcomes you want.
+
+It turns out that *thinking of data as groups of related items* that can interact allows programmers to take advantage of the mathematical theory called set theory and a kind of algebra called relational algebra to write an elegant and complete programming language for each reading information.
+
+
+
+#### Requirements
 
 The database will be configured to abide by as many of the requirements of set theory as possible.
 
-1. First of all, single tables should represent the smallest logical part of a data set.
-2. Next, each column in a table must represent a unique category of information.
-3. Each row in a table must represent unique instance of that information as well.
-4. Order of columns or row in a table can't matter.
+1. First of all, single tables should represent the smallest logical part of a data set
+2. Next, each column in a table must represent a unique category of information
+3. Each row in a table must represent unique instance of that information as well
+4. Order of columns or row in a table can't matter
 
 
 
-As long as we can figure out how to put the data we care about into collections of tables, relational databases provide a very powerful way to store and retrieve our data in an extremely safe and reliable fashion. They pretty much solve all the problems spreadsheets don't.
+#### Features
+
+As long as we can figure out how to put the data we care about into collections of tables, relational databases provide a very powerful way to **store** and **retrieve** our data in an extremely **safe** and **reliable** fashion. They pretty much solve all the problems spreadsheets don't
 
 
 
